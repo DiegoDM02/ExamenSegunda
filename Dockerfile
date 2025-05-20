@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y apache2 php git
 
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 RUN rm -rf /var/www/html/*
-RUN git clone https://github.com/DiegoDM02/Practica-4-DevSecOps.git /var/www/html/
+RUN git clone https://gist.github.com/xxsanekxx/4371331.git /var/www/html/
 
 EXPOSE 80
 
